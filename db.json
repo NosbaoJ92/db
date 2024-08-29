@@ -1,0 +1,294 @@
+{"usuarios":[
+  {
+    "cpf": "40685592871",
+    "nome": "Joabson Nogueira",
+    "email": "sp@sp.com",
+    "cargo": "Administrativo",
+    "especialidade": "Analista de Redes",
+    "perfil": "Administrativo",
+    "superusuario": false,
+    "login": "joabson",
+    "senha": "123",
+    "cns": "",
+    "conselho": "",
+    "telefone": "(13) 9880-0809",
+    "id": "1",
+    "superUsuario": true
+  },
+  {
+    "cpf": "12345678910",
+    "nome": "Alex",
+    "email": "sp@sp.com",
+    "cargo": "Médico",
+    "especialidade": "Clínico",
+    "perfil": "Médico",
+    "superusuario": false,
+    "login": "alex",
+    "senha": "123",
+    "cns": "",
+    "conselho": "",
+    "telefone": "(13) 9999-9999",
+    "id": "2",
+    "superUsuario": false
+  },
+  {
+    "cpf": "12345678911",
+    "nome": "Alessandra",
+    "email": "sp@sp.com",
+    "cargo": "Administrador",
+    "especialidade": "Recepção",
+    "perfil": "Administrador",
+    "superusuario": false,
+    "login": "ale",
+    "senha": "123",
+    "cns": "",
+    "conselho": "",
+    "telefone": "",
+    "id": "3",
+    "superUsuario": false
+  },
+  {
+    "cpf": "40685592871",
+    "nome": "Joabson Nog",
+    "email": "sp@sp.com",
+    "cargo": "Médico",
+    "especialidade": "Clínico",
+    "perfil": "Médico",
+    "superusuario": false,
+    "login": "Joabson",
+    "senha": "123",
+    "cns": "",
+    "conselho": "12345",
+    "telefone": "(13) 98880-0809",
+    "id": "4",
+    "superUsuario": false
+  },
+  {
+    "cpf": "40739613812",
+    "nome": "Leticia Batista",
+    "email": "sp@sp.com",
+    "cargo": "Médico",
+    "especialidade": "Clínico",
+    "perfil": "Médico",
+    "superusuario": false,
+    "login": "leticia",
+    "senha": "123",
+    "cns": "700602905149670",
+    "conselho": "175953",
+    "telefone": "(13) 00000-0000",
+    "id": "5",
+    "superUsuario": false
+  }
+],"consulta":[
+    {
+      "classificacao": "Pouco Urgente",
+      "prioridade": "Não",
+      "pacienteNome": "Carlos Souza",
+      "data": "20/01/2024",
+      "chegada": "09:20",
+      "profissional": "Florence Nightingale",
+      "queixas": "Dor de cabeça, garganta irritada",
+      "id": "1"
+    },
+    {
+      "classificacao": "Muito Urgente",
+      "prioridade": "Não",
+      "pacienteNome": "Mariana Costa",
+      "data": "16/01/2024",
+      "chegada": "10:40",
+      "profissional": "Clara Barton",
+      "queixas": "Convulsões, desmaios",
+      "id": "2"
+    },
+    {
+      "classificacao": "Não Urgente",
+      "prioridade": "Não",
+      "pacienteNome": "Douglas Costa",
+      "data": "28/08/2024",
+      "chegada": "19:40",
+      "profissional": "Clara Barton",
+      "queixas": "Convulsões, desmaios",
+      "id": "3"
+    },
+    {
+      "classificacao": "Urgente",
+      "prioridade": "Não",
+      "pacienteNome": "Matheus Costa",
+      "data": "28/08/2024",
+      "chegada": "12:30",
+      "profissional": "Clara Barton",
+      "queixas": "Convulsões, desmaios",
+      "id": "4"
+    }
+  ],"pacientes":[
+    {
+      "cpf": "406.855.928-71",
+      "nome": "Joabson Nogueira",
+      "data_nascimento": "1986-08-05",
+      "idade": 38,
+      "consultaEmergencial": "",
+      "id": "1"
+    },
+    {
+      "cpf": "123.456.789-09",
+      "nome": "Maria Silva",
+      "data_nascimento": "1985-03-15",
+      "idade": 37,
+      "consultaEmergencial": "",
+      "id": "2"
+    },
+    {
+      "cpf": "987.654.321-00",
+      "nome": "Carlos Oliveira",
+      "data_nascimento": "1990-12-20",
+      "idade": 31,
+      "consultaEmergencial": "",
+      "id": "3"
+    },
+    {
+      "cpf": "111.222.333-44",
+      "nome": "Ana Pereira",
+      "data_nascimento": "1988-07-10",
+      "idade": 33,
+      "consultaEmergencial": "",
+      "id": "4"
+    },
+    {
+      "cpf": "555.666.777-88",
+      "nome": "Lucas Santos",
+      "data_nascimento": "1995-05-22",
+      "idade": 26,
+      "id": "5"
+    },
+    {
+      "cpf": "999.888.777-66",
+      "nome": "Fernanda Oliveira",
+      "data_nascimento": "1983-09-18",
+      "idade": 38,
+      "consultaEmergencial": "",
+      "id": "6"
+    },
+    {
+      "cpf": "222.333.444-55",
+      "nome": "Ricardo Souza",
+      "data_nascimento": "1980-04-25",
+      "idade": 41,
+      "consultaEmergencial": "",
+      "id": "7"
+    },
+    {
+      "cpf": "444.555.666-77",
+      "nome": "Camila Lima",
+      "data_nascimento": "1992-06-15",
+      "idade": 32,
+      "consultaEmergencial": "",
+      "id": "8"
+    },
+    {
+      "cpf": "777.888.999-00",
+      "nome": "Roberto Santos",
+      "data_nascimento": "1993-02-28",
+      "idade": 28,
+      "consultaEmergencial": "",
+      "id": "9"
+    },
+    {
+      "cpf": "321.654.987-09",
+      "nome": "Amanda Costa",
+      "data_nascimento": "1987-06-08",
+      "idade": 34,
+      "id": "10"
+    },
+    {
+      "cpf": "135.246.789-00",
+      "nome": "Pedro Oliveira",
+      "data_nascimento": "1982-01-14",
+      "idade": 40,
+      "id": "11"
+    },
+    {
+      "cpf": "876.543.210-99",
+      "nome": "Larissa Silva",
+      "data_nascimento": "1996-10-30",
+      "idade": 25,
+      "id": "12"
+    },
+    {
+      "cpf": "987.654.321-98",
+      "nome": "Rodrigo Pereira",
+      "data_nascimento": "1986-07-03",
+      "idade": 35,
+      "id": "13"
+    },
+    {
+      "cpf": "123.456.789-90",
+      "nome": "Patricia Souza",
+      "data_nascimento": "1994-04-17",
+      "idade": 27,
+      "id": "14"
+    },
+    {
+      "cpf": "135.792.468-00",
+      "nome": "Eduardo Lima",
+      "data_nascimento": "1984-12-01",
+      "idade": 37,
+      "id": "15"
+    },
+    {
+      "cpf": "876.543.210-98",
+      "nome": "Vanessa Santos",
+      "data_nascimento": "1991-09-13",
+      "idade": 30,
+      "id": "16"
+    },
+    {
+      "cpf": "111.222.333-66",
+      "nome": "Marcelo Costa",
+      "data_nascimento": "1989-05-07",
+      "idade": 32,
+      "id": "17"
+    },
+    {
+      "cpf": "444.555.666-99",
+      "nome": "Isabela Oliveira",
+      "data_nascimento": "1997-08-24",
+      "idade": 24,
+      "id": "18"
+    },
+    {
+      "cpf": "999.888.777-55",
+      "nome": "Alexandre Silva",
+      "data_nascimento": "1981-03-19",
+      "idade": 40,
+      "id": "19"
+    },
+    {
+      "cpf": "222.333.444-66",
+      "nome": "Juliana Lima",
+      "data_nascimento": "2010-03-30",
+      "idade": 13,
+      "id": "20"
+    },
+    {
+      "cpf": "123.456.789-10",
+      "nome": "Arthur Hatem",
+      "data_nascimento": "2012-09-18",
+      "idade": 11,
+      "id": "22"
+    },
+    {
+      "cpf": "123.456.789-10",
+      "nome": "Arthur Hatem",
+      "data_nascimento": "2012-09-18",
+      "idade": 11,
+      "id": "23"
+    },
+    {
+      "cpf": "406.855.928-71",
+      "nome": "JoabsonNo",
+      "data_nascimento": "1992-08-05",
+      "idade": 32,
+      "id": "24"
+    }
+  ]}
+  
