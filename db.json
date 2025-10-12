@@ -1,294 +1,226 @@
-{"usuarios":[
-  {
-    "cpf": "40685592871",
-    "nome": "Joabson Nogueira",
-    "email": "sp@sp.com",
-    "cargo": "Administrativo",
-    "especialidade": "Analista de Redes",
-    "perfil": "Administrativo",
-    "superusuario": false,
-    "login": "joabson",
-    "senha": "123",
-    "cns": "",
-    "conselho": "",
-    "telefone": "(13) 9880-0809",
-    "id": "1",
-    "superUsuario": true
-  },
-  {
-    "cpf": "12345678910",
-    "nome": "Alex",
-    "email": "sp@sp.com",
-    "cargo": "Médico",
-    "especialidade": "Clínico",
-    "perfil": "Médico",
-    "superusuario": false,
-    "login": "alex",
-    "senha": "123",
-    "cns": "",
-    "conselho": "",
-    "telefone": "(13) 9999-9999",
-    "id": "2",
-    "superUsuario": false
-  },
-  {
-    "cpf": "12345678911",
-    "nome": "Alessandra",
-    "email": "sp@sp.com",
-    "cargo": "Administrador",
-    "especialidade": "Recepção",
-    "perfil": "Administrador",
-    "superusuario": false,
-    "login": "ale",
-    "senha": "123",
-    "cns": "",
-    "conselho": "",
-    "telefone": "",
-    "id": "3",
-    "superUsuario": false
-  },
-  {
-    "cpf": "40685592871",
-    "nome": "Joabson Nog",
-    "email": "sp@sp.com",
-    "cargo": "Médico",
-    "especialidade": "Clínico",
-    "perfil": "Médico",
-    "superusuario": false,
-    "login": "Joabson",
-    "senha": "123",
-    "cns": "",
-    "conselho": "12345",
-    "telefone": "(13) 98880-0809",
-    "id": "4",
-    "superUsuario": false
-  },
-  {
-    "cpf": "40739613812",
-    "nome": "Leticia Batista",
-    "email": "sp@sp.com",
-    "cargo": "Médico",
-    "especialidade": "Clínico",
-    "perfil": "Médico",
-    "superusuario": false,
-    "login": "leticia",
-    "senha": "123",
-    "cns": "700602905149670",
-    "conselho": "175953",
-    "telefone": "(13) 00000-0000",
-    "id": "5",
-    "superUsuario": false
-  }
-],"consulta":[
+{
+  "usuarios": [
     {
+      "id": "1",
+      "cpf": "406.855.928-71",
+      "nome": "Joabson Nogueira",
+      "email": "sp@sp.com",
+      "cargo": "Administrativo",
+      "especialidade": "Analista de Redes",
+      "perfil": "Administrativo",
+      "superUsuario": true,
+      "login": "joabson",
+      "senha": "123",
+      "cns": "",
+      "conselho": "",
+      "telefone": "(13) 98880-0809",
+      "ativo": true,
+      "dataCadastro": "2024-01-10",
+      "ultimaAtualizacao": "2025-10-10",
+      "observacoes": "Usuário administrador principal do sistema."
+    },
+    {
+      "id": "2",
+      "cpf": "123.456.789-10",
+      "nome": "Alex Souza",
+      "email": "sp@sp.com",
+      "cargo": "Médico",
+      "especialidade": "Clínico Geral",
+      "perfil": "Médico",
+      "superUsuario": false,
+      "login": "alex",
+      "senha": "123",
+      "cns": "",
+      "conselho": "CRM-SP 125879",
+      "telefone": "(13) 99999-9999",
+      "ativo": true,
+      "dataCadastro": "2024-01-12",
+      "ultimaAtualizacao": "2025-09-18",
+      "observacoes": ""
+    },
+    {
+      "id": "3",
+      "cpf": "123.456.789-11",
+      "nome": "Alessandra Silva",
+      "email": "sp@sp.com",
+      "cargo": "Administrador",
+      "especialidade": "Recepção",
+      "perfil": "Administrador",
+      "superUsuario": false,
+      "login": "ale",
+      "senha": "123",
+      "cns": "",
+      "conselho": "",
+      "telefone": "(13) 97000-0000",
+      "ativo": true,
+      "dataCadastro": "2024-02-05",
+      "ultimaAtualizacao": "2025-07-01",
+      "observacoes": "Responsável por cadastros e atualizações administrativas."
+    },
+    {
+      "id": "5",
+      "cpf": "407.396.138-12",
+      "nome": "Leticia Batista",
+      "email": "sp@sp.com",
+      "cargo": "Médico",
+      "especialidade": "Clínico Geral",
+      "perfil": "Médico",
+      "superUsuario": false,
+      "login": "leticia",
+      "senha": "123",
+      "cns": "700602905149670",
+      "conselho": "CRM-SP 175953",
+      "telefone": "(13) 90000-0000",
+      "ativo": true,
+      "dataCadastro": "2024-03-15",
+      "ultimaAtualizacao": "2025-05-22",
+      "observacoes": ""
+    }
+  ],
+
+  "consulta": [
+    {
+      "id": "1",
       "classificacao": "Pouco Urgente",
       "prioridade": "Não",
       "pacienteNome": "Carlos Souza",
-      "data": "20/01/2024",
+      "data": "2024-01-20",
       "chegada": "09:20",
       "profissional": "Florence Nightingale",
       "queixas": "Dor de cabeça, garganta irritada",
-      "id": "1"
+      "ativo": true,
+      "dataCadastro": "2024-01-20",
+      "ultimaAtualizacao": "2024-01-20",
+      "observacoes": ""
     },
     {
+      "id": "2",
       "classificacao": "Muito Urgente",
-      "prioridade": "Não",
+      "prioridade": "Sim",
       "pacienteNome": "Mariana Costa",
-      "data": "16/01/2024",
+      "data": "2024-01-16",
       "chegada": "10:40",
       "profissional": "Clara Barton",
-      "queixas": "Convulsões, desmaios",
-      "id": "2"
+      "queixas": "Convulsões e desmaios",
+      "ativo": true,
+      "dataCadastro": "2024-01-16",
+      "ultimaAtualizacao": "2024-01-16",
+      "observacoes": "Paciente encaminhada diretamente à sala de emergência."
     },
     {
+      "id": "3",
       "classificacao": "Não Urgente",
       "prioridade": "Não",
       "pacienteNome": "Douglas Costa",
-      "data": "28/08/2024",
+      "data": "2024-08-28",
       "chegada": "19:40",
       "profissional": "Clara Barton",
-      "queixas": "Convulsões, desmaios",
-      "id": "3"
+      "queixas": "Dor abdominal leve e tontura",
+      "ativo": true,
+      "dataCadastro": "2024-08-28",
+      "ultimaAtualizacao": "2024-08-28",
+      "observacoes": ""
     },
     {
+      "id": "4",
       "classificacao": "Urgente",
-      "prioridade": "Não",
+      "prioridade": "Sim",
       "pacienteNome": "Matheus Costa",
-      "data": "28/08/2024",
+      "data": "2024-08-28",
       "chegada": "12:30",
       "profissional": "Clara Barton",
-      "queixas": "Convulsões, desmaios",
-      "id": "4"
+      "queixas": "Convulsões e desmaios recorrentes",
+      "ativo": true,
+      "dataCadastro": "2024-08-28",
+      "ultimaAtualizacao": "2024-08-29",
+      "observacoes": "Paciente monitorado em observação."
     }
-  ],"pacientes":[
+  ],
+
+  "pacientes": [
     {
+      "id": "1",
       "cpf": "406.855.928-71",
       "nome": "Joabson Nogueira",
       "data_nascimento": "1986-08-05",
       "idade": 38,
       "consultaEmergencial": "",
-      "id": "1"
+      "ativo": true,
+      "dataCadastro": "2024-01-10",
+      "ultimaAtualizacao": "2025-09-12",
+      "observacoes": "Paciente cadastrado pelo setor administrativo."
     },
     {
+      "id": "2",
       "cpf": "123.456.789-09",
       "nome": "Maria Silva",
       "data_nascimento": "1985-03-15",
-      "idade": 37,
+      "idade": 40,
       "consultaEmergencial": "",
-      "id": "2"
+      "ativo": true,
+      "dataCadastro": "2024-02-02",
+      "ultimaAtualizacao": "2025-06-15",
+      "observacoes": ""
     },
     {
+      "id": "3",
       "cpf": "987.654.321-00",
       "nome": "Carlos Oliveira",
       "data_nascimento": "1990-12-20",
-      "idade": 31,
+      "idade": 34,
       "consultaEmergencial": "",
-      "id": "3"
+      "ativo": true,
+      "dataCadastro": "2024-02-12",
+      "ultimaAtualizacao": "2024-12-10",
+      "observacoes": ""
     },
     {
+      "id": "4",
       "cpf": "111.222.333-44",
       "nome": "Ana Pereira",
       "data_nascimento": "1988-07-10",
-      "idade": 33,
+      "idade": 37,
       "consultaEmergencial": "",
-      "id": "4"
+      "ativo": true,
+      "dataCadastro": "2024-02-20",
+      "ultimaAtualizacao": "2025-05-05",
+      "observacoes": ""
     },
     {
+      "id": "5",
       "cpf": "555.666.777-88",
       "nome": "Lucas Santos",
       "data_nascimento": "1995-05-22",
-      "idade": 26,
-      "id": "5"
+      "idade": 30,
+      "consultaEmergencial": "",
+      "ativo": true,
+      "dataCadastro": "2024-03-01",
+      "ultimaAtualizacao": "2024-11-22",
+      "observacoes": ""
     },
     {
+      "id": "6",
       "cpf": "999.888.777-66",
       "nome": "Fernanda Oliveira",
       "data_nascimento": "1983-09-18",
-      "idade": 38,
+      "idade": 42,
       "consultaEmergencial": "",
-      "id": "6"
+      "ativo": true,
+      "dataCadastro": "2024-03-10",
+      "ultimaAtualizacao": "2025-02-14",
+      "observacoes": ""
     },
     {
-      "cpf": "222.333.444-55",
-      "nome": "Ricardo Souza",
-      "data_nascimento": "1980-04-25",
-      "idade": 41,
-      "consultaEmergencial": "",
-      "id": "7"
-    },
-    {
-      "cpf": "444.555.666-77",
-      "nome": "Camila Lima",
-      "data_nascimento": "1992-06-15",
-      "idade": 32,
-      "consultaEmergencial": "",
-      "id": "8"
-    },
-    {
-      "cpf": "777.888.999-00",
-      "nome": "Roberto Santos",
-      "data_nascimento": "1993-02-28",
-      "idade": 28,
-      "consultaEmergencial": "",
-      "id": "9"
-    },
-    {
-      "cpf": "321.654.987-09",
-      "nome": "Amanda Costa",
-      "data_nascimento": "1987-06-08",
-      "idade": 34,
-      "id": "10"
-    },
-    {
-      "cpf": "135.246.789-00",
-      "nome": "Pedro Oliveira",
-      "data_nascimento": "1982-01-14",
-      "idade": 40,
-      "id": "11"
-    },
-    {
-      "cpf": "876.543.210-99",
-      "nome": "Larissa Silva",
-      "data_nascimento": "1996-10-30",
-      "idade": 25,
-      "id": "12"
-    },
-    {
-      "cpf": "987.654.321-98",
-      "nome": "Rodrigo Pereira",
-      "data_nascimento": "1986-07-03",
-      "idade": 35,
-      "id": "13"
-    },
-    {
-      "cpf": "123.456.789-90",
-      "nome": "Patricia Souza",
-      "data_nascimento": "1994-04-17",
-      "idade": 27,
-      "id": "14"
-    },
-    {
-      "cpf": "135.792.468-00",
-      "nome": "Eduardo Lima",
-      "data_nascimento": "1984-12-01",
-      "idade": 37,
-      "id": "15"
-    },
-    {
-      "cpf": "876.543.210-98",
-      "nome": "Vanessa Santos",
-      "data_nascimento": "1991-09-13",
-      "idade": 30,
-      "id": "16"
-    },
-    {
-      "cpf": "111.222.333-66",
-      "nome": "Marcelo Costa",
-      "data_nascimento": "1989-05-07",
-      "idade": 32,
-      "id": "17"
-    },
-    {
-      "cpf": "444.555.666-99",
-      "nome": "Isabela Oliveira",
-      "data_nascimento": "1997-08-24",
-      "idade": 24,
-      "id": "18"
-    },
-    {
-      "cpf": "999.888.777-55",
-      "nome": "Alexandre Silva",
-      "data_nascimento": "1981-03-19",
-      "idade": 40,
-      "id": "19"
-    },
-    {
-      "cpf": "222.333.444-66",
-      "nome": "Juliana Lima",
-      "data_nascimento": "2010-03-30",
+      "id": "21",
+      "cpf": "123.456.789-10",
+      "nome": "Arthur Hatem",
+      "data_nascimento": "2012-09-18",
       "idade": 13,
-      "id": "20"
-    },
-    {
-      "cpf": "123.456.789-10",
-      "nome": "Arthur Hatem",
-      "data_nascimento": "2012-09-18",
-      "idade": 11,
-      "id": "22"
-    },
-    {
-      "cpf": "123.456.789-10",
-      "nome": "Arthur Hatem",
-      "data_nascimento": "2012-09-18",
-      "idade": 11,
-      "id": "23"
-    },
-    {
-      "cpf": "406.855.928-71",
-      "nome": "JoabsonNo",
-      "data_nascimento": "1992-08-05",
-      "idade": 32,
-      "id": "24"
+      "consultaEmergencial": "",
+      "ativo": true,
+      "dataCadastro": "2024-07-30",
+      "ultimaAtualizacao": "2025-09-01",
+      "observacoes": "Menor de idade — responsável legal: Amanda Hatem."
     }
-  ]}
-  
+  ]
+}
